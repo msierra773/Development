@@ -1,0 +1,29 @@
+#grid-container 
+{   display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: aqua;
+    grid-row: 1/4;
+}
+
+.box2 {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(15, 180, 103);
+    grid-row: 1/4;
+}
+
+.box3 {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(141, 74, 125);
+    grid-row: 1/4;
+}

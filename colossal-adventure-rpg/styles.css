@@ -1,0 +1,96 @@
+
+#page
+{   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.innerGrid
+{
+    grid-column: 2/4;    
+}
+
+.hud
+{   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: 5px solid rgba(27, 31, 35, .15);
+    border-color: black;
+    grid-column: 1/5;
+    background-color: rgb(82, 82, 82);
+}
+.hud-input
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: black;
+    border: 5px solid white
+}
+
+.active-tile 
+{
+    background-color: rgba(217, 255, 49, 0.666) !important;
+}
+
+.other-active-tile 
+{
+    background-color: rgba(217, 255, 49, 0.666) !important;   }
+
+.other-active-tile2 
+{
+    background-color: rgba(217, 255, 49, 0.666) !important;
+}
+
+#grid-container
+{
+    background-color: rgba(81, 81, 81, 0.716);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1px;
+}
+
+.box
+{
+    padding: 1px;
+    background-color: rgba(0, 100, 0, 0);
+    /* background: url("top-down-forest-preview.png"); */
+}
+
+.over-world 
+{
+    background: url("over-world.png");
+    background-size: cover;
+}
+
+.box--blue 
+{
+    background-color: blue;
+   
+}
+.boxa 
+{
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.358);  */
+    /* remove the back round color before proceeding this is only so thatthe grid tiles are visible */
+   
+}
+
+.tile1 
+{  
+    padding: 20px;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    background-color: yellow;
+}
+
+.tile-grid 
+{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 1px
+    
+}

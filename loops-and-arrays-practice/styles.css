@@ -1,0 +1,12 @@
+.body {
+    background-color: rgb(33, 226, 226);
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  

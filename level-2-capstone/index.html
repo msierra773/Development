@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>just a template</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="background-color: rgb(52, 52, 52)">
+    <div style="text-align: center" id="top">
+      <h1>Marcos Template</h1>
+
+      <div class="topnav" style="text-align: center">
+        <a class="active" href="index.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <div id="btndiv">
+        <button class="btn" id="showList">show to do list</button>
+        <button class="btn" id="loginbtn">Log in</button>
+      </div>
+    </div>
+    <br />
+<div id="grid-container">
+    <div>
+      <form style="color: aliceblue">
+        <label>Title</label><br />
+        <input id="title" /><br /><br />
+        <label>Description</label><br />
+        <input id="description" /><br /><br />
+        <label style="color: aliceblue">Price</label><br />
+        <input id="price" type="text" name="item" /><br /><br>
+        <label style="color: aliceblue">Image Url</label><br />
+        <input id="img" type="text" name="item" /><br />
+        <button id="addBtn" class="btn">add</button>
+      </form>
+    </div>
+    <div>
+    
+      <ul id="list" style="color: aliceblue;">
+        <!-- <li><button class="btn" id="delete">delete</button></li> -->
+    </ul>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

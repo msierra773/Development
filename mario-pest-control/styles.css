@@ -1,0 +1,119 @@
+.box {
+  font-family: "Courier New", Courier, monospace;
+  border: solid 5px rgb(222, 246, 62);
+  padding: 20px;
+  grid-column: 1/7;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  background-image: url("output.png");
+  background-size: contain;
+}
+
+#footer {
+  grid-column: 1/7;
+  grid-row: 6/7;
+  background-color: rgb(60, 60, 60);
+}
+
+.coin-img {
+  background: url("coin.png") no-repeat center center;
+  background-size: 70px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+#body {
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+.box2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  border: solid 5px rgb(222, 206, 113);
+  border-radius: 15px;
+  grid-column: 2/6;
+  grid-row: 2/6;
+  background-color: rgb(0, 0, 0);
+}
+
+#goombas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 10px;
+  grid-row: 1/2;
+  grid-column: 1/4;
+  background-color: rgb(154, 154, 156);
+  border-radius: 10px;
+  border: solid 3px purple;
+}
+
+#bob-ombs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 2/3;
+  grid-column: 1/4;
+  padding-left: 10px;
+  background-color: rgb(55, 55, 230);
+  border-radius: 10px;
+  border: solid 3px gold;
+}
+
+#goomba-math {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#cheep-cheep-math {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#cheep-cheeps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 3/4;
+  grid-column: 1/4;
+  padding-left: 10px;
+
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: solid 3px rgb(243, 134, 33);
+}
+
+#total {
+  grid-row: 4/5;
+  grid-column: 1/4;
+  background-color: rgb(68, 68, 68);
+  border-radius: 10px;
+  border: solid 3px rgb(0, 0, 0);
+  text-align: center;
+}
+
+#goomba-pic {
+  background-image: url("pngegg.png");
+  background-size: contain;
+}
+
+#bob-omb-pic {
+  background-image: url("bob-omb.png");
+  background-size: contain;
+}
+
+#cheep-cheep-pic {
+  background-image: url("cheep-cheep.png");
+  background-size: contain;
+}
+
+#bob-omb-math {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}

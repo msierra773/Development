@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>travel form</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="body">
+    <div id="grid-container">
+      <div class="box" id="form-container">
+        <center>
+          <img src="american-airlines-logo-png-transparent.png" height="100px" id="logo" />
+        </center>
+      </div>
+      <div class="box2">
+        <h1 style="text-align: center">Passenger Data Form</h1>
+        <form name="airline-form" class="form">
+          <br />
+          <label>First Name</label><br />
+          <input type="text" name="first-name" /><br />
+          <br />
+          <label>Last Name</label><br />
+          <input type="text" name="last-name" /><br />
+          <br />
+          <label>Age</label><br />
+          <input type="number" name="age" /><br />
+          <br />
+          <label>Male</label>
+          <input type="radio" name="gender" value="male"/><br />
+          <label>Female</label>
+          <input type="radio" name="gender" value="female"/><br />
+          <select name="city">
+            <option value="sandiego">sandiego</option>
+            <option value="seattle">seattle</option>
+            <option value="bakersfield">bakersfield</option>
+          </select>
+          <br />
+          <h7>dietary restrictions</h7><br />
+          <input type="checkbox" name="diet" value="vegan" />vegan<br />
+          <input type="checkbox" name="diet" value="Kosher"/>Kosher<br />
+          <input type="checkbox" name="diet" value="lactose free"/>lactose free<br />
+          <br />
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="travelForm.js"></script>
+  </body>
+</html>

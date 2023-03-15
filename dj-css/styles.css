@@ -1,0 +1,156 @@
+.topnav {
+  background-color: rgb(0, 255, 21);
+  overflow: hidden;
+  border-radius: 0px;
+  border-top: solid black 5px;
+  border-bottom: solid black 5px;
+  
+}
+
+.topnav a {
+  color: #0e0eb8;
+  /* text-align: center; */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#top {
+  /* text-align: center; */
+  background-color: #04aa6d;
+  color: (255, 255, 255);
+  border: solid 5px black;
+  border-radius: 15px;
+  color: rgb(255, 208, 0);
+}
+
+.btn {
+  border: solid whitesmoke 2px;
+  border-radius: 15px;
+  padding: 10px;
+  color: #ddd;
+  background-color: #0e0eb8;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#btndiv {
+  text-align: right;
+}
+
+.box1 {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #0e0eb8;
+  transition-property: box-shadow, background-color;
+  transition-duration: 1s;
+
+}
+
+.box1:hover {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #b80e82;
+  box-shadow: 10px 5px 5px rgb(89, 255, 0);
+}
+
+.box2 {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #0e0eb8;
+  opacity: 100%;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.box2:hover {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #0e0eb8;
+  opacity: 0%;
+}
+
+.box3 {
+  border: black 5px;
+  padding: 100px;
+  background-color: #0e0eb8;
+  transition-property: border-style, border-top-left-radius, border-bottom-right-radius;
+  transition-duration: 1s;
+  border-style: solid;
+  border-top-left-radius: 0px;
+}
+
+.box3:hover {
+  border: black 5px;
+  padding: 50px;
+  background-color: #0e0eb8;
+  border-style: dotted;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.box4 {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #0e0eb8;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.box4:hover {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.box5 {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #0e0eb8;
+  transition-property: visibilty;
+  transition-duration: 1s;
+  visibility: visible;
+}
+
+.box5:hover {
+  border: solid black 5px;
+  padding: 100px;
+  visibility:hidden;
+}
+
+.box6 {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #0e0eb8;;
+  transition-property: background-color, border-radius;
+  transition-duration: 1s;
+  border-radius: 0px;
+}
+
+.box6:hover {
+  border: solid black 5px;
+  padding: 100px;
+  background-color: #b8880e;
+  border-radius: 100px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.boxes {
+  text-align: center;
+}
